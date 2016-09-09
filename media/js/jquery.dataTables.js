@@ -9296,8 +9296,8 @@
 			// If we need to reattach the table to the document
 			if ( ! remove && orig ) {
 				// insertBefore acts like appendChild if !arg[1]
-				orig.insertBefore( table, settings.nTableReinsertBefore );
-	
+				// orig.insertBefore( table, settings.nTableReinsertBefore ); // Original line changed by line below
+				orig.appendChild(table); // Fixed applied when other datatables are loaded in angular tabs and previous tables get lost reference
 				// Restore the width of the original table - was read from the style property,
 				// so we can restore directly to that
 				jqTable
