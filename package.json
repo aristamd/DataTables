@@ -3,13 +3,6 @@
 	"version": "1.10.13-dev",
 	"title": "DataTables",
 	"main": "media/js/jquery.dataTables",
-	"files": [
-		"media/js/jquery.dataTables.js",
-		"media/js/jquery.dataTables.min.js",
-		"media/css/jquery.dataTables.css",
-		"media/css/jquery.dataTables.min.css",
-		"media/images"
-	],
 	"license": "MIT",
 	"dependencies": {
 		"jquery": ">=1.7"
